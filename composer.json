@@ -1,0 +1,25 @@
+{
+    "name": "atanasov/light",
+    "description": "Simple lightweight minimalistic PHP framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atanasov",
+            "email": "atanas.m.atanasov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "autoload": {
+       "files": [
+            "src/Light/Init.php"
+        ],
+        "psr-4": {
+            "Light\\": "src/Light/"
+        }
+    },
+}
